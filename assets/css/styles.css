@@ -11286,3 +11286,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.container-main{
+  padding: 20px 0 ;
+  min-height : 500px;
+}
+
+
+
+
+.img-komik{
+width : 100%;
+}
+
+.img-komik-tbl{
+  height : 200px;
+  }
