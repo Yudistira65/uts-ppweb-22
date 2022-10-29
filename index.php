@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>UTS PPWEB 22</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -31,7 +31,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Heading Row-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Sky-Logo-1984.png" alt="..." /></div>
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/Sky-Logo-1984.png" alt="..." /></div>
                 <div class="col-lg-5">
                     <h1 class="font-weight-light">SEWA KOMIK YUK</h1>
                     <p>Sewa Komik Yuk ini adalah aplikasi untuk mempersewakan buku komik agar semua orang yang suka membaca komik tidak perlu jauh-jauh menyewa di rental komik dan lebih tau mengenai info buku yang telah disewa atau tidak. </p>
@@ -48,7 +48,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">BORUTO</h2>
-                            <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Manga-Boruto-1.jpg" alt="..." />
+                            <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/Manga-Boruto-1.jpg" alt="..." />
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
                     </div>
@@ -57,7 +57,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">ONE PIECE</h2>
-                            <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Manga-One-Piece.jpg" alt="..." />
+                            <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/Manga-One-Piece.jpg" alt="..." />
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">ONE PUNCH MAN</h2>
-                            <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Manga-One-Punch-Man.jpg" alt="..." />
+                            <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/Manga-One-Punch-Man.jpg" alt="..." />
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
                     </div>
