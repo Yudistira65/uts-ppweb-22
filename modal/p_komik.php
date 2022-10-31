@@ -66,9 +66,9 @@ if(isset($_POST['btnsubmit'])){
         $sql = "INSERT INTO komik (judul, jumlah, harga_sewa, gambar) VALUES ('$judul', '$jumlah', '$harga_sewa', '$gambar')";
     
         if(mysqli_query($con, $sql)){
-            notif("Data Telah Disimpan", "../index.php?p=komik");
+            notif("success","Data Telah Disimpan", "../index.php?p=komik");
         }else{
-            notif("Maaf Telah Terjadi Kesalahan", "../index.php?p=komik");
+            notif("error", "Maaf Telah Terjadi Kesalahan", "../index.php?p=komik");
         }
     
     }else{
@@ -76,9 +76,9 @@ if(isset($_POST['btnsubmit'])){
         $sql = "UPDATE komik SET judul = '$judul', jumlah = '$jumlah', harga_sewa = '$harga_sewa'  $sql_gambar WHERE id_komik = '$id_komik' ";
         
         if(mysqli_query($con, $sql)){
-            notif("Data Telah Disimpan", "../index.php?p=komik");
+            notif("success", "Data Telah Disimpan", "../index.php?p=komik");
         }else{
-            notif("Maaf Telah Terjadi Kesalahan", "../index.php?p=$id_komik");
+            notif("error", "Maaf Telah Terjadi Kesalahan", "../index.php?p=$id_komik");
         }
     }
 

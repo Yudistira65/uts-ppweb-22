@@ -20,7 +20,7 @@
           $harga_sewa = $row['harga_sewa'];
           $gambar = $row['gambar'];    
         }else{
-            echo '<script>error_msg("");</script>';
+            echo '<script>error_msg("index.php?p=komik");</script>';
         }    
         }else if($ket== "hapus"){
             $id_komik = isset($_GET['id'])?mysqli_real_escape_string($con, htmlspecialchars($_GET['id'])):'';
