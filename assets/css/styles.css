@@ -11302,3 +11302,19 @@ width : 100%;
 .img-komik-tbl{
   height : 200px;
   }
+
+  .item-komik>.card-body>.card-title{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    font-size: 1.3em;
+  }
+
+  .form-box{
+    min-height: 100px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  
