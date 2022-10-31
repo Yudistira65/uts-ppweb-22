@@ -22,6 +22,7 @@
     <p>jumlah : <?=$jumlah; ?></p>
     <p>harga sewa : Rp.<?= number_format($harga_sewa);?></p>
     <hr>
+    <?php if(isset($_SESSION['username'])):?>
     <form action="">
         <div class ="row">
             <div class = "col">
@@ -35,6 +36,7 @@
             </div>
         </div>
         </form>
+        <? endif;?>
     </div>
 </div>
     
